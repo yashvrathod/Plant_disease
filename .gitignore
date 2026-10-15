@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Ignore all model files
+*.keras
+*.h5
+
+# Except the trained model
+!models/best_model.keras
+
+# Dataset
+data/raw/
+data/processed/
